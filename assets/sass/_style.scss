@@ -1,0 +1,83 @@
+nav{
+	background-color:white;
+}
+.menu{
+	display:inline-block;
+	color:#b5b5b5;
+	.fa-pinterest{
+		color:#bd071d;
+		font-size:37px;
+	}
+}
+
+#boton-us{
+	margin-top:10px;
+	padding:8px;
+	border-style:none;
+	border-radius:14px;
+	background-color:white;
+	height:40px;
+	width:97px;
+	text-align:center;
+	img{
+		border: 0;
+		width: 30px;
+		border-radius: 50%;
+		position:relative;
+		bottom:5px;
+	}
+}
+.fa{
+	color:#cacccc;
+	font-size:34px;
+}
+.fa-thumb-tack{
+	font-size:9px;
+}
+#boton-us:hover{
+	padding:0;
+	margin-top:10px;
+	background-color:#cacccc;
+}
+#busqueda-menu{
+	width:100%;
+	border-style:none;
+	border-radius:5px;
+	background-color:#efefef;
+	color:#545454;
+	padding-left:7px;
+}
+.fotos{
+	width:186px;
+	border-radius:8px;
+}
+.info{
+	width:200px;
+	background-color:white;
+	/*margin:10px;
+	padding:10px;*/
+}
+.contain{
+	padding-left:5%;
+	padding-right:5%;
+}
+.p-bold{
+	font-weight:bold;
+	font-size:15px;
+	color:#515151;
+	width:150px;
+	display:inline-block;
+}
+.p-describ{
+	font-size:10px;
+	color:#515151;
+}
+.megusta{
+	font-size:8px;
+	color:#a7a7a7;
+	display:inline-block;
+	width:50px;
+}
+.line{
+	display:inline-block;
+}
