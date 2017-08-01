@@ -10,10 +10,12 @@ $(document).ready(function() {
 		var imag= i.image_url;
 		var titulo= i.title;
 
-		var result= '<div class="col m2 l2 info menu"><img src=assets/img/'+imag+' class="fotos card-title"><p class="p-bold">'+titulo+'</p><div class="megusta"><i class="fa fa-thumb-tack line" aria-hidden="true"></i><p class="line">36,6k</p></div><p class="p-describ">'+descripcion+'</p><p>'+hash+'</p></div>'
+		var result= '<div class="col m2 l2 info menu"><img src=assets/img/'+imag+' class="fotos card-title"><p class="p-bold">'+titulo+'</p><p class="p-describ">'+descripcion+'</p><p>'+hash+'</p></div>'
 		$('.conten-img').append(result);
 		console.log(imag)
 	});
 	$('#modal1').modal('open');
 	$('#modal1').modal('close');
 });
+
+/*<div class="megusta"><i class="fa fa-thumb-tack line" aria-hidden="true"></i><p class="line">36,6k</p></div>*/
